@@ -23,7 +23,14 @@ Africa, such as the lack of physical infrastructure and the shortage of qualifie
                     
                 </div>
                 
-                    <img src="/images/hero.png" alt="" />
+                    <Image
+                        src='/images/hero.png'
+                        alt="HeroImage"
+                        width={500}
+                        height={500}
+                        className="object-fit-cover"
+                    />
+
                 
             </div>
         </section>
