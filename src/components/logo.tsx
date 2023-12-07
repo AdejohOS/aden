@@ -1,12 +1,20 @@
+'use client'
 import Image from 'next/image'
+import { useRouter } from 'next/navigation';
 
 const Logo = () => {
+    const router = useRouter()
+
     return ( 
         <Image
-            src="./images/logo.svg"
+            src="/images/adenlogo.svg"
             alt='aden logo'
-            height={20}
-            width={20}
+            height={150}
+            width={150}
+            className='cursor-pointer'
+            onClick={() => {
+                router.push('/')
+            }}
         />
      );
 }

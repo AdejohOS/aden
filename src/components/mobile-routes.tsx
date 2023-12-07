@@ -45,7 +45,6 @@ const MobileRoutes = () => {
             <div className="p-6 flex items-center justify-center gap-2">
 
                 <Logo />
-                <h2 className="font-bold text-1.5xl text-slate-500">aden</h2>
             </div>
             <div className="flex flex-col w-full">
                 {linkRoutes.map((route) => (

@@ -1,7 +1,9 @@
+import HeroSection from "@/components/hero";
+
 const Media = () => {
     return ( 
-        <div>
-            media page
+        <div className="mt-8">
+            <HeroSection />
         </div>
      );
 }
