@@ -1,8 +1,27 @@
 const AboutUs = () => {
     return ( 
-        <div>
-            
-        </div>
+        <section className="container bg-slate-300/20">
+            <div>
+                <h1>
+                    About Us
+                    About Us
+                    About Us
+                    About Us
+                    About Us
+                    About Us
+                    About Us
+                    About Us
+                    About Us
+                    About Us
+                    About Us
+                    About Us
+                    About Us
+                    About Us
+                    About Us
+                </h1>
+            </div>
+
+        </section>
      );
 }
  
