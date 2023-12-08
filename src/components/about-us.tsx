@@ -10,7 +10,7 @@ import {
 
 import { useState } from "react";
 
-import { BarChartBig, Binary, Blocks, ChevronDown, CircuitBoard, Grip, Orbit, Radiation, Settings2, Share2, ShieldCheck, SlidersHorizontal } from "lucide-react";
+import { Antenna, BarChartBig, Binary, Blocks, ChevronDown, CircuitBoard, Grip, Orbit, Radiation, Settings2, Share2, ShieldCheck, SlidersHorizontal } from "lucide-react";
 
 const AboutUs = () => {
 
@@ -22,7 +22,7 @@ const AboutUs = () => {
                 <div className="text-center flex items-center justify-center flex-col mb-14">
 
                     <h1 className="text-xl md:text-3xl font-bold">
-                        ADEN&#39;s <span className="text-sky-700 border-b p-2 border-sky-500">Core Mandate </span>
+                        ADEN&#39;s <span className="text-sky-700 border-b p-2 border-sky-500">9 Core Mandate </span>
                     </h1>
                 </div>
                 
@@ -66,7 +66,7 @@ const AboutUs = () => {
                             <AccordionItem value="item-item">
                                 <AccordionTrigger className="font-md text-left">
                                     <div className="bg-white rounded-full shadow-md p-1 mr-2 ">
-                                        <Radiation className="text-sky-500 h-4 w-4" />
+                                        <Antenna className="text-sky-500 h-4 w-4" />
                                     </div>
                                     Develop digital educational resources 
                                 </AccordionTrigger>
