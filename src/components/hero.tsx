@@ -11,7 +11,7 @@ const HeroSection = () => {
                         <div className="hero-text">
                             <h1 className="text-center text-4xl md:text-left md:text-5xl font-bold mb-4 text-slate-700"><span className="text-sky-700"> Africa&#39;s</span> Growth is our <span className="border-b border-sky-200 pb-[2px]">responsibility!</span></h1>
                             <p className="text-center md:text-left mb-4 text-slate-500">Digital education has the potential to overcome some of the traditional barriers to education in
-        Africa, such as the lack of physical infrastructure and the shortage of qualified teachers.
+                                Africa, such as the lack of physical infrastructure and the shortage of qualified teachers.
                             </p>
 
                             <div className="text-center md:text-left">
@@ -24,14 +24,17 @@ const HeroSection = () => {
                             </div>
                             
                         </div>
-                        
+
+                        <div className="relative aspect-square">
                             <Image
                                 src='/images/hero.png'
                                 alt="HeroImage"
-                                width={500}
-                                height={500}
-                                className="object-fit-cover"
+                                fill
+                                className="object-cover"
                             />
+                        </div>
+                        
+                            
 
                         
                 </div>

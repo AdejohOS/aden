@@ -24,6 +24,7 @@ const AboutUs = () => {
                     <h1 className="text-xl md:text-3xl font-bold">
                         ADEN&#39;s <span className="text-sky-700 border-b p-2 border-sky-500">9 Core Mandate </span>
                     </h1>
+                    <p className="mt-2 text-slate-500">Promoting digital education in Africa. </p>
                 </div>
                 
                 <div>
