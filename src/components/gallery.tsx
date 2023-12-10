@@ -92,6 +92,8 @@ const Gallery = () => {
                             </p>
                         </div>
                     </div>
+
+                    
                 </div>
             </>
         </section>
