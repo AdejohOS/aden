@@ -9,7 +9,7 @@ const Partner = ({src,alt}:PartnerProps) => {
     return ( 
         <Image
             src={src}
-            alt='alt'
+            alt={alt}
         />
      );
 }
