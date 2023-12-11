@@ -108,7 +108,7 @@ const Footer = () => {
            <Separator className="mt-4"/>
 
            <p className="text-center mt-4 text-slate-500">
-                <a href="https://adejohos.dev" target="_blank" className="hover:text-sky-300">Sunday Adejoh</a> &#169; 2023  
+                <a href="https://adejohos.dev" target="_blank" className="hover:text-sky-300">Aden Media</a> &#169; 2023  
            </p>
                 
         </footer>
