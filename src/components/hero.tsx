@@ -31,9 +31,9 @@ const HeroSection = () => {
                                     <div className="absolute z-10 inset-0  bg-gray-800 bg-opacity-70 w-full h-full">
 
                                     </div>
-                                    <div className="absolute top-24 left-16 max-w-xl z-20">
+                                    <div className="absolute object-center p-6 top-20 left-5 max-w-xl z-20">
                                         <h1 className="text-center text-4xl md:text-left md:text-5xl font-bold mb-4 text-slate-50"><span className="text-sky-300"> Africa&#39;s</span> Growth is our <span className="border-b border-sky-300 pb-[2px]">responsibility!</span></h1>
-                                        <p className="text-center md:text-left mb-4 text-slate-50">Digital education has the potential to overcome some of the traditional barriers to education in
+                                        <p className="text-center md:text-left mb-4 text-slate-50 max-w-xl">Digital education has the potential to overcome some of the traditional barriers to education in
                                         Africa, such as the lack of physical infrastructure and the shortage of qualified teachers.
                                         </p>
 
