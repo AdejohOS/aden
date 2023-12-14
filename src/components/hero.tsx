@@ -18,8 +18,8 @@ const HeroSection = () => {
                         
 
                         <Swiper
-                            navigation={true}
-                            autoplay={{delay: 2500,}}
+                            pagination={true}
+                            autoplay={{delay: 5500,}}
                             modules={[Autoplay,Navigation, Pagination]}
                             className=" w-full  h-full "
                         >
@@ -28,7 +28,7 @@ const HeroSection = () => {
                                 <SwiperSlide key={index}
                                  className="relative"
                                 >
-                                    <div className="absolute z-10 inset-0  bg-gray-800 bg-opacity-70 w-full h-full">
+                                    <div className="absolute z-10 inset-0  bg-gray-800 bg-opacity-75 w-full h-full">
 
                                     </div>
                                     <div className="absolute object-center p-6 top-20 left-5 max-w-xl z-20">
@@ -41,9 +41,7 @@ const HeroSection = () => {
                                             <Button variant='outline' className="text-slate-500 text-center">
                                                 Learn More
                                              </Button>
-                                             <Button className="ml-2">
-                                                Contact Us
-                                            </Button>
+                                             
                                         </div>
                             
                                     </div>
