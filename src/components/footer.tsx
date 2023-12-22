@@ -18,18 +18,18 @@ const Footer = () => {
                    </div>
                         
                   
-                    <address className="text-slate-500">
+                    <address className="text-slate-500 text-sm md:text-base">
                         Area 1, Section 1, Lapai Street,
                         Garki, Abuja.
                     </address>
                     
                     
-                    <p className="truncate text-slate-500 flex items-center hover:text-sky-300">
+                    <p className="truncate text-slate-500 text-sm md:text-base flex items-center hover:text-sky-300">
                         <PhoneCall className="h-4 w-4 mr-2"/>
-                        <a href="tel:123-456-7890">070-634-94394</a>
+                        <a  href="tel:123-456-7890">070-634-94394</a>
                     </p>
 
-                    <p className="truncate text-slate-500 flex items-center hover:text-sky-300">
+                    <p className="truncate text-sm md:text-base text-slate-500 flex items-center hover:text-sky-300">
                         <Mail className="h-4 w-4 mr-2"/>
                         <a href = "mailto: info@aden.org.ng">info@aden.org.ng</a>
                     </p>
@@ -58,9 +58,9 @@ const Footer = () => {
             </div>
 
             <div>
-                <h1 className="text-3xl">Media</h1>
+                <h1 className="text-2xl md:text-3xl ">Media</h1>
 
-                <div className="flex flex-col space-y-2">
+                <div className="flex flex-col space-y-2 text-sm md:text-base">
                     <Link href='/' className="text-slate-500 hover:text-sky-300">
                         Educational Performance
                     </Link>
@@ -75,9 +75,9 @@ const Footer = () => {
             </div>
 
             <div>
-                <h1 className="text-3xl">Sitemap</h1>
+                <h1 className="text-2xl md:text-3xl">Sitemap</h1>
 
-                <div className="flex flex-col space-y-2">
+                <div className="flex flex-col space-y-2 text-sm md:text-base">
                     <Link href='/' className="text-slate-500 hover:text-sky-300">
                         About Us
                     </Link>
@@ -95,10 +95,10 @@ const Footer = () => {
             </div>
 
             <div>
-                <h1 className="text-3xl">Newsletter</h1>
+                <h1 className="text-2xl md:text-3xl">Newsletter</h1>
 
                 <div className="flex flex-col space-y-2">
-                    <p className="text-slate-500">
+                    <p className="text-slate-500 text-sm md:text-base">
                     Subscribe to our newsletter to instantly receive news about the project.
                     </p>
 
@@ -115,7 +115,7 @@ const Footer = () => {
            </div>
            <Separator className="mt-4"/>
 
-           <p className="text-center mt-4 text-slate-500">
+           <p className="text-center mt-4 text-slate-500 text-sm md:text-base ">
                 <a href="https://adejohos.dev" target="_blank" className="hover:text-sky-300">Aden Media</a> &#169; 2023  
            </p>
                 

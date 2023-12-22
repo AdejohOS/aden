@@ -27,7 +27,7 @@ const linkRoutes = [
     {
         icon: Calendar,
         label: 'Events',
-        href: "/events"
+        href: "/upcoming-events"
     },
     {
         icon: PhoneCallIcon,

@@ -22,7 +22,7 @@ const AboutUs = () => {
 
     return ( 
         <section className="container bg-slate-300/20 py-24  w-full">
-            <div className='max-w-[800px] m-auto relative '>
+            <div className='max-w-[800px] m-auto relative flex flex-col items-center justify-center md:block'>
 
                 <div className='relative aspect-auto'>
                     <Image 
@@ -33,13 +33,15 @@ const AboutUs = () => {
                         className='object-cover rounded-md'
                     />
                 </div>
-                <div className='absolute top-[50%] 
-                                translate-y-[-50%] bg-slate-50 shadow 
-                                left-[150px]  rounded-md
+                <div className='md:absolute top-[50%] 
+                                md:translate-y-[-50%] 
+                                bg-slate-50 shadow 
+                                md:left-[150px]  rounded-md
                                 '
                     >
                     <div className='p-3 w-full h-full flex flex-col items-center justify-center'>
                         <h2 className='text-2xl font-bold mt-2 text-slate-700 border-b-2 pb-1'>Welcome to ADEN</h2>
+                        
                         <p className="my-2 text-slate-500 text-center ">The African Digital Education Network’s (ADEN) core mandates include raising awareness about the benefits of digital education across Africa and sharing resources with African institutions of higher education. <Link href='/about-us' className='text-xs text-sky-300  hover:underline'>Learn more &#187; </Link> </p>
                         
                         
