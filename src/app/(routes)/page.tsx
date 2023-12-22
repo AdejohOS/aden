@@ -1,17 +1,23 @@
 import AboutUs from '@/components/about-us'
 import Gallery from '@/components/gallery'
 import HeroSection from '@/components/hero'
-import Partners from '@/components/partners'
-import Place from '@/components/place'
-import Image from 'next/image'
+import News from '@/components/news'
+import Partner from '@/components/partner'
+
+
+import Values from '@/components/values'
+
 
 export default function Home() {
   return (
     <main className='w-full h-full'>
       <HeroSection/>
       <AboutUs/>
-      <Gallery/>
-      <Partners />
+      <Values/>
+      
+    
+      <News />
+      <Partner />
     </main>
   )
 }

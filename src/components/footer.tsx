@@ -2,6 +2,7 @@ import Link from "next/link";
 import Newsletter  from "./newsletter";
 import { Facebook, Instagram, Mail, PhoneCall, Twitter } from "lucide-react";
 import { Separator } from "./ui/separator";
+import Logo from "./logo";
 
 const Footer = () => {
     return ( 
@@ -9,13 +10,20 @@ const Footer = () => {
            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 pl-6 pr-6 gap-4">
 
             <div>
-                <h1 className="text-3xl">Contact</h1>
+                
 
                 <div className="flex flex-col space-y-2">
+                   <div className="w-10 h-10 overflow-hidden rounded-full">
+                   <Logo/>
+                   </div>
+                        
+                  
                     <address className="text-slate-500">
                         Area 1, Section 1, Lapai Street,
                         Garki, Abuja.
                     </address>
+                    
+                    
                     <p className="truncate text-slate-500 flex items-center hover:text-sky-300">
                         <PhoneCall className="h-4 w-4 mr-2"/>
                         <a href="tel:123-456-7890">070-634-94394</a>

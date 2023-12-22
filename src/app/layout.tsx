@@ -1,11 +1,16 @@
 import type { Metadata } from 'next'
-import { Figtree } from 'next/font/google'
+import { Figtree, Poppins } from 'next/font/google'
 import './globals.css'
 import Navbar from '@/components/nav-bar'
 import Footer from '@/components/footer'
 import { cn } from '@/lib/utils'
 
-const font = Figtree({ subsets: ['latin'] })
+const font = Poppins({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-poppins',
+  weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900']
+});
 
 export const metadata: Metadata = {
   title: 'Home | Africa Digital Education Network (ADEN)',
@@ -20,11 +25,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={cn('relative', font.className)}>
-        <Navbar />
-        <div className='relative'>
-          {children}
+        <div className='h-screen flex flex-col'>
+          <Navbar />
+            <div className='relative flex-1'>
+              {children}
+            </div>
+          <Footer/>
         </div>
-        <Footer/>
       </body>
     </html>
   )

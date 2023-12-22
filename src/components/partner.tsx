@@ -1,16 +1,17 @@
 import Image, { StaticImageData } from 'next/image'
 
-interface PartnerProps {
-    src: string | StaticImageData;
-    alt:string;
-}
 
-const Partner = ({src,alt}:PartnerProps) => {
+
+const Partner = () => {
     return ( 
-        <Image
-            src={src}
-            alt={alt}
-        />
+        <section className='pt-24 pb-24'>
+            <div className='container'>
+                <h1 className="text-xl md:text-3xl font-bold">
+                    ADEN&#39;s <span className="text-green-700 border-b p-2 border-green-500">Partners </span>
+                </h1>
+
+            </div>
+        </section>
      );
 }
  

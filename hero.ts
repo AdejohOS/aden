@@ -8,18 +8,22 @@ export const heros = [
     {
         src: one,
         alt: 'one',
+        title: "growth is our responsibility."
     },
     {
         src: two,
         alt: 'one',
+        title: "Putting square pegs."
     },
     {
         src: three,
         alt: 'one',
+        title: "creating a new destination."
     },
     {
         src: four,
         alt: 'one',
+        title: "Excellence is the Watch word"
     },
    
 ]

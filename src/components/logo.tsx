@@ -7,10 +7,10 @@ const Logo = () => {
 
     return ( 
         <Image
-            src="/images/adenlogo.svg"
+            src="/images/aden.png"
             alt='aden logo'
-            height={150}
-            width={150}
+            height={60}
+            width={60}
             className='cursor-pointer'
             onClick={() => {
                 router.push('/')
