@@ -20,7 +20,7 @@ const Partner = () => {
 
                 
                     <div className='mt-20'>
-                        <div className='grid max-w-[700px] m-auto grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10'>
+                        <div className='grid max-w-[700px] m-auto grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-10'>
                             
                             <a href="https://acenpee.abu.edu.ng" target="_blank" rel="noopener noreferrer">
                                 <div  className='relative rounded-md overflow-hidden w-full h-full card  shadow-md border-l-2 p-4'>
@@ -33,7 +33,7 @@ const Partner = () => {
                                         />
                                     </div>
                                     <div className='card-body absolute left-0 bottom-[-100%] bg-slate-700/70 h-full w-full backdrop:blur-lg transition-all'>
-                                        <p className='text-xs text-slate-50 p-2'>
+                                        <p className='md:text-xs text-slate-50 p-2'>
                                             Africa Centre of Excellence on New Pedagogies in Engineering Education (ACENPEE), Ahmadu Bello University (ABU), Zaria, Nigeria.
                                         </p>
 
@@ -52,7 +52,7 @@ const Partner = () => {
                                         />
                                     </div>
                                     <div className='card-body absolute left-0 bottom-[-100%] bg-slate-700/70 h-full w-full backdrop:blur-lg transition-all'>
-                                        <p className='text-xs text-slate-50 p-2'>
+                                        <p className='md:text-xs text-slate-50 p-2'>
                                             Africa Centre of Excellence on Technology Enhanced Learning (ACETEL), National Open University of Nigeria (NOUN), Abuja
                                         </p>
 
@@ -71,7 +71,7 @@ const Partner = () => {
                                         />
                                     </div>
                                     <div className='card-body absolute left-0 bottom-[-100%] bg-slate-700/70 h-full w-full backdrop:blur-lg transition-all'>
-                                        <p className='text-xs text-slate-50 p-2'>
+                                        <p className='md:text-xs text-slate-50 p-2'>
                                             Africa Centre of Excellence for Innovative and Transformative STEM Education (ACEITSE), Lagos State University (LASU), Lagos, Nigeria 
                                         </p>
 
@@ -91,7 +91,7 @@ const Partner = () => {
                                     </div>
 
                                     <div className='card-body absolute left-0 bottom-[-100%] bg-slate-700/70 h-full w-full backdrop:blur-lg transition-all'>
-                                        <p className='text-xs text-slate-50 p-2'>
+                                        <p className='md:text-xs text-slate-50 p-2'>
                                             Africa Centre of Excellence for Teaching/Learning Mathematics and Science for Sub-Saharan Africa (CEA MS4SSA), Abdou Moumouni University of Niamey, Republic of Niger.
                                         </p>
 
