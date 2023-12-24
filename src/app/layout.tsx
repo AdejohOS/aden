@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { Figtree, Poppins } from 'next/font/google'
+import { Figtree, Poppins, Sevillana } from 'next/font/google'
 import './globals.css'
 import Navbar from '@/components/nav-bar'
 import Footer from '@/components/footer'
@@ -11,6 +11,13 @@ const font = Poppins({
   variable: '--font-poppins',
   weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900']
 });
+
+const sevillana = Sevillana( {
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-sevillna',
+  weight: ['400',]
+})
 
 export const metadata: Metadata = {
   title: 'Home | Africa Digital Education Network (ADEN)',
