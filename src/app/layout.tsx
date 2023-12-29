@@ -12,12 +12,7 @@ const font = Poppins({
   weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900']
 });
 
-const sevillana = Sevillana( {
-  subsets: ['latin'],
-  display: 'swap',
-  variable: '--font-sevillna',
-  weight: ['400',]
-})
+
 
 export const metadata: Metadata = {
   title: 'Home | Africa Digital Education Network (ADEN)',
