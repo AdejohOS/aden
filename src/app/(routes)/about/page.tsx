@@ -6,7 +6,7 @@ import {
     AccordionItem,
     AccordionTrigger,
 } from "@/components/ui/accordion"
-import { BatteryFull, Command, KanbanSquare } from "lucide-react"
+import { BatteryFull, CheckCircle, Command, KanbanSquare } from "lucide-react"
 import Image from 'next/image'
 
 const mandates = [
@@ -85,7 +85,10 @@ const AboutUs = () => {
                                         <AccordionItem value={mandate.title}>
                                             <AccordionTrigger className="font-md ">
                                         
-                                                {mandate.title}
+                                                <div className="flex items-center">
+                                                    <CheckCircle className="w-4 h-4 mr-2"/>
+                                                    {mandate.title}
+                                                </div>
                                             </AccordionTrigger>
                                             <AccordionContent className="pb-2">
                                                 {mandate.description}
