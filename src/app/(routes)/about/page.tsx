@@ -73,7 +73,7 @@ const AboutUs = () => {
                         <div className="w-full h-full">
                             <div className="mb-5">
 
-                                <h1 className=" font-bold text-green-700 text-xl">
+                                <h1 className=" font-bold text-green-600 text-xl">
                                     9 Core Mandate 
                                 </h1>
                                 <p className="mt-2 text-slate-500 text-sm">Promoting digital education in Africa. </p>
