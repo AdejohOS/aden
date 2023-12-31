@@ -37,6 +37,7 @@ const NavItems = () => {
       {linkRoutes.map((link) => (
         
           <NavLinks
+            key={link.label}
             label={link.label}
             href={link.href}
             icon={link.icon}
