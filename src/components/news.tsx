@@ -10,7 +10,7 @@ const News = () => {
         <section className="container  pt-24 pb-24">
             <>
                 <h1 className="text-xl md:text-3xl font-bold">
-                    ADEN&#39;s <span className="text-green-700 border-b p-2 border-green-500">News </span>
+                    <span className="text-green-700 border-b p-2 border-green-500">News </span>
                 </h1>
                 <p className="mt-4 text-slate-500">Dive into a  world of great possibilities. </p>
 

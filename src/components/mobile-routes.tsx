@@ -17,7 +17,7 @@ const linkRoutes = [
     {
         icon: User2Icon,
         label: 'About Us',
-        href: "/about"
+        href: "/about-us"
     },
     {
         icon: Video,

@@ -14,18 +14,18 @@ const UpcomingEvents = () => {
             <UpcomingHero/>
             <section className="container pb-24">
                 <div>
-                    <div className="flex gap-5 justify-between">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
 
                         <div className="flex-grow   relative">
                             <Input
                                 placeholder="Search for an event"
-                                className="max-w-[600px] pl-8"
+                                className="w-full pl-8"
                             />
                             <SearchIcon className="w-4 h-4 text-slate-500 absolute top-[50%] translate-y-[-50%] left-3"/>
                         </div>
                         
 
-                        <div className="w-[50%]">
+                        <div className="w-full">
                             <Select/>
                         </div>
                         

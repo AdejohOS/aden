@@ -24,7 +24,7 @@ const Partner = () => {
         <section className='pt-24 pb-24'>
             <div className='container'>
                 <h1 className="text-xl md:text-3xl font-bold">
-                    ADEN <span className="text-green-700 border-b p-2 border-green-500">Partners </span>
+                    <span className="text-green-700 border-b p-2 border-green-500">Partners </span>
                 </h1>
 
                 

@@ -6,8 +6,9 @@ import {
     AccordionItem,
     AccordionTrigger,
 } from "@/components/ui/accordion"
-import { BatteryFull, CheckCircle, Command, KanbanSquare } from "lucide-react"
+import {  CheckCircle, KanbanSquare, Magnet, Settings } from "lucide-react"
 import Image from 'next/image'
+import ObjCarousel from "./_components/carousel"
 
 const mandates = [
     {
@@ -63,82 +64,129 @@ const AboutUs = () => {
 
 
     return ( 
-        <section className="container bg-slate-300/20 pt-24 pb-24">
-            <div>
-                
-                
-                <div>
-                    <div className="relative mt-6 grid grid-cols-1 md:grid-cols-2 gap-5">
+        <div className="w-full h-full">
+            <div className="  mt-16 pt-24 pb-20">
 
-                        <div className="w-full h-full">
-                            <div className="mb-5">
+                <section className="container">
+                    
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+                        <div className="relative aspect-square bg-green-100/20">
+                            <Image 
+                            src='/images/about/light.svg'
+                            alt="objectives"
+                            fill
+                            className="object-fit px-6"
+                            />
 
-                                <h1 className=" font-bold text-green-600 text-xl">
-                                    9 Core Mandate 
-                                </h1>
-                                <p className="mt-2 text-slate-500 text-sm">Promoting digital education in Africa. </p>
+                            <p className="absolute bottom-5 left-6  text-slate-400 text-xs ">Acquiring the relevant skill for the right objectives</p>
+
+                            <div className="absolute  left-5 top-[-20px] bg-slate-50 p-2 rounded-full shadow-md">
+                                <KanbanSquare className="h-8 w-8 text-green-500/40"  />
                             </div>
-                            <Accordion type="single" collapsible className="text-slate-500">
+                        </div>
+
+                        <div className="w-full h-full ">
+                            <div className=" flex flex-col items-end">
+
+                                <h1 className=" font-bold text-green-600 text-xl text-left">
+                                    Objectvies
+                                </h1>
+                                <p className="mt-2 text-slate-500 text-sm">Our objectives are: </p>
+                            </div>
+                            
+                            <div className="w-full h-full flex items-center justify-center overflow-auto">
                                 
-                                {mandates.map((mandate) => (
-                                    <div key={mandate.id}>
-                                        <AccordionItem value={mandate.title}>
-                                            <AccordionTrigger className="font-md ">
-                                        
-                                                <div className="flex items-center">
-                                                    <CheckCircle className="w-4 h-4 mr-2"/>
-                                                    {mandate.title}
-                                                </div>
-                                            </AccordionTrigger>
-                                            <AccordionContent className="pb-2">
-                                                {mandate.description}
-                                            </AccordionContent>
-                                        </AccordionItem>
-                                    </div>
-                                ))}
+                                <ObjCarousel />
+                            
+                            </div>
+                        </div>
+
+                        
+
+                    </div>
+                    
+                </section>
+
+            </div>
+        
+            <section className="container bg-slate-300/20 pt-24 pb-24">
+                <div>
+                    
+                    
+                    
+                        <div className="relative mt-6 grid grid-cols-1 md:grid-cols-2 gap-5">
+
+                            <div className="w-full h-full">
+                                <div className="mb-5">
+
+                                    <h1 className=" font-bold text-green-600 text-xl">
+                                        Core Mandate 
+                                    </h1>
+                                    <p className="mt-2 text-slate-500 text-sm">The African Digital Education Network’s (ADEN) core mandates include raising awareness about the benefits of digital education across Africa and sharing resources with African institutions of higher education. </p>
+                                </div>
+                                <Accordion type="single" collapsible className="text-slate-500">
+                                    
+                                    {mandates.map((mandate) => (
+                                        <div key={mandate.id}>
+                                            <AccordionItem value={mandate.title}>
+                                                <AccordionTrigger className="font-md ">
+                                            
+                                                    <div className="flex items-center">
+                                                        <CheckCircle className="w-4 h-4 mr-2"/>
+                                                        {mandate.title}
+                                                    </div>
+                                                </AccordionTrigger>
+                                                <AccordionContent className="pb-2">
+                                                    {mandate.description}
+                                                </AccordionContent>
+                                            </AccordionItem>
+                                        </div>
+                                    ))}
+                                    
+
                                 
+
+                                    
+                                </Accordion>
+                            </div>
+                            
+
+                            <div className="bg-green-100/20 rounded-md h-full w-full flex flex-col items-center justify-center">
+                                <div className="relative aspect-video ">
+                                    <Image
+                                        src='/images/about/undraw.svg'
+                                        alt="accordionImage"
+                                        height={500}
+                                        width={500}
+                                        className="object-cover px-6"
+
+                                    />
+                                </div>
+
+                                <p className="absolute bottom-4 text-slate-400 text-xs">Acquiring the relevant skill for performance</p>
+
+                                <div className="absolute  right-5 top-[-20px] bg-slate-50 p-2 rounded-full shadow-md">
+                                    <KanbanSquare className="h-8 w-8 text-green-500/40"  />
+                                </div>
+                            </div>
+                            
 
                             
 
-                                
-                            </Accordion>
-                        </div>
+                            
+
+                            
                         
 
-                        <div className="bg-green-100/20 rounded-md h-full w-full flex flex-col items-center justify-center">
-                            <div className="relative  h-[200px] w-[200px] ">
-                                <Image
-                                    src='/images/about/undraw.svg'
-                                    alt="accordionImage"
-                                    fill
-                                    className="object-contain"
-
-                                />
-                            </div>
-
-                            <p className="absolute bottom-4 text-slate-400 text-xs">Acquiring the relevant skill for performance</p>
-
-                            <div className="absolute  right-5 top-[-20px] bg-slate-50 p-2 rounded-full shadow-md">
-                                <KanbanSquare className="h-10 w-10 text-green-500/40"  />
-                            </div>
-                        </div>
-                        
-
-                        
-
-                        
-
-                        
-                      
-
-                        
+                            
 
                         
                     </div>
                 </div>
-            </div>
 
-        </section>
+            </section>
+
+        </div>
      );
 }
  
