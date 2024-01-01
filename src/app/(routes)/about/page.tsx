@@ -9,6 +9,7 @@ import {
 import {  CheckCircle, KanbanSquare, Magnet, Settings } from "lucide-react"
 import Image from 'next/image'
 import ObjCarousel from "./_components/carousel"
+import AboutHero from "./_components/about-hero"
 
 const mandates = [
     {
@@ -65,7 +66,9 @@ const AboutUs = () => {
 
     return ( 
         <div className="w-full h-full">
-            <div className="  mt-16 pt-24 pb-20">
+            <AboutHero/>
+
+            <div className=" pb-20">
 
                 <section className="container">
                     
@@ -86,7 +89,7 @@ const AboutUs = () => {
                         </div>
 
                         <div className="w-full h-full ">
-                            <div className=" flex flex-col items-end">
+                            <div className=" flex flex-col">
 
                                 <h1 className=" font-bold text-green-600 text-xl text-left">
                                     Objectvies
@@ -108,13 +111,16 @@ const AboutUs = () => {
                 </section>
 
             </div>
+
+
+            
         
             <section className="container bg-slate-300/20 pt-24 pb-24">
                 <div>
                     
                     
                     
-                        <div className="relative mt-6 grid grid-cols-1 md:grid-cols-2 gap-5">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
 
                             <div className="w-full h-full">
                                 <div className="mb-5">
@@ -151,24 +157,20 @@ const AboutUs = () => {
                             </div>
                             
 
-                            <div className="bg-green-100/20 rounded-md h-full w-full flex flex-col items-center justify-center">
-                                <div className="relative aspect-video ">
-                                    <Image
-                                        src='/images/about/undraw.svg'
-                                        alt="accordionImage"
-                                        height={500}
-                                        width={500}
-                                        className="object-cover px-6"
+                            <div className="relative aspect-square bg-green-100/20 h-full w-full">
+                            <Image 
+                            src='/images/about/undraw.svg'
+                            alt="mandate"
+                            fill
+                            className="object-fit px-6"
+                            />
 
-                                    />
-                                </div>
+                            <p className="absolute bottom-5 left-6  text-slate-400 text-xs ">Acquiring the relevant skill for the right objectives</p>
 
-                                <p className="absolute bottom-4 text-slate-400 text-xs">Acquiring the relevant skill for performance</p>
-
-                                <div className="absolute  right-5 top-[-20px] bg-slate-50 p-2 rounded-full shadow-md">
-                                    <KanbanSquare className="h-8 w-8 text-green-500/40"  />
-                                </div>
+                            <div className="absolute  right-5 top-[-20px] bg-slate-50 p-2 rounded-full shadow-md">
+                                <KanbanSquare className="h-8 w-8 text-green-500/40"  />
                             </div>
+                        </div>
                             
 
                             

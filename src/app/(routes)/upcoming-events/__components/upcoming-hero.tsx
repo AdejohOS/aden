@@ -21,7 +21,7 @@ const UpcomingHero = () => {
         </div>
         <div className='container'>
             <h1 className="text-xl md:text-3xl font-bold mt-20">
-                    ADEN&#39;s <span className="text-green-700 border-b p-2 border-green-500">Events </span>
+                    <span className="text-green-700 border-b p-2 border-green-500">Events </span>
             </h1>
         </div>
 
