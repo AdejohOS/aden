@@ -1,6 +1,7 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Button } from "./ui/button";
 import Image from 'next/image'
+import Link from "next/link";
 
 const HeroSection = () => {
     return ( 
@@ -15,9 +16,15 @@ const HeroSection = () => {
                             </p>
 
                             <div className="text-center md:text-left">
-                                <Button variant='secondary' className="text-slate-500 text-center">
-                                    Learn More
-                                </Button>
+                                <Link
+                                    href='about'
+                                >
+                                    <Button variant='secondary' className="text-slate-500 text-center">
+                                        Learn More
+                                    </Button>
+                                
+                                </Link>
+                                
                                 
                             </div>
                             

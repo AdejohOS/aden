@@ -26,7 +26,7 @@ const AboutUs = () => {
 
                 <div className='relative aspect-auto'>
                     <Image 
-                        src="/images/about.jpg"
+                        src="/images/about/cordinator.jpg"
                         alt="about" 
                         height={250}
                         width={250}
@@ -36,21 +36,21 @@ const AboutUs = () => {
                 <div className='md:absolute top-[50%] 
                                 md:translate-y-[-50%] 
                                 bg-slate-50/60 shadow 
-                                md:left-[150px]  rounded-md
+                                md:left-[180px]  rounded-md
                                 '
                 >
                     <div className='p-3 w-full h-full flex flex-col items-center justify-center'>
-                        <h2 className='text-2xl font-bold mt-2 text-slate-700 border-b-2 pb-1'>Welcome!!</h2>
+                        <h2 className='text-3xl font-bold mt-2 text-green-700 border-b-2 pb-1'>Welcome to Aden!!</h2>
                         
-                        <p className="my-2 text-slate-500 text-center ">The African Digital Education Network’s (ADEN) core mandates include raising awareness about the benefits of digital education across Africa and sharing resources with African institutions of higher education. <Link href='/about-us' className='text-xs text-sky-300  hover:underline'>Learn more &#187; </Link> </p>
+                        <p className="my-2 text-slate-500 text-center "> I welcome you to the homepage of the African Digital Education Network (ADEN). the program helps graduate students, faculty members, and industry professionals in engineering and allied STEM fields improve their teaching and course design skills.    </p>
                         
                         
                         <div className='flex flex-col items-center justify-center mt-2'>
                             <p>
-                                Dr. Joseph Aloyafin
+                                Prof Raymond B. Bako
                             
                             </p>
-                            <span className='italic text-xs text-slate-400'>Director</span>
+                            <span className='italic text-xs text-slate-400'>Co-ordinator</span>
                         </div>
                         
                         
