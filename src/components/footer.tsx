@@ -19,8 +19,9 @@ const Footer = () => {
                         
                   
                     <address className="text-slate-500 text-sm md:text-base">
-                        Area 1, Section 1, Lapai Street,
-                        Garki, Abuja.
+                        ACENPEE BUILDING, Adj. Drama Village, 
+                        Ahmadu Bello University,
+                        Zaria.
                     </address>
                     
                     

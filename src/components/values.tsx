@@ -7,7 +7,7 @@ const Values = () => {
                 <h1 className="text-xl md:text-3xl font-bold">
                     <span className="text-green-700 border-b p-2 border-green-500">Core Values </span>
                 </h1>
-                <p className="mt-4 text-slate-500">Dive into a  world of great possibilities. </p>
+                
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 mt-20 gap-10 md:gap-4">
                     <div className="relative bg-slate-50 rounded-md flex flex-col items-center justify-center  p-4 shadow">

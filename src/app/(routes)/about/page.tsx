@@ -72,8 +72,8 @@ const AboutUs = () => {
 
                 <section className="container">
                     
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-                        <div className="relative aspect-square bg-green-100/20">
+                    <div className="grid grid-cols-1  md:grid-cols-2 gap-5">
+                        <div className="order-2 md:order-1 relative aspect-square bg-green-100/20">
                             <Image 
                             src='/images/about/light.svg'
                             alt="objectives"
@@ -88,7 +88,7 @@ const AboutUs = () => {
                             </div>
                         </div>
 
-                        <div className="w-full h-full ">
+                        <div className="w-full h-full order-1 md:order-2">
                             <div className=" flex flex-col">
 
                                 <h1 className=" font-bold text-green-600 text-xl text-left">

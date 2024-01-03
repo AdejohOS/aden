@@ -12,11 +12,11 @@ const News = () => {
                 <h1 className="text-xl md:text-3xl font-bold">
                     <span className="text-green-700 border-b p-2 border-green-500">News </span>
                 </h1>
-                <p className="mt-4 text-slate-500">Dive into a  world of great possibilities. </p>
+                
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 mt-20 gap-5">
 
-                    <div className="bg-slate-50 rounded-md flex flex-col items-center justify-center space-y-4 shadow-md">
+                    <div className="bg-slate-50 rounded-md flex flex-col space-y-4 shadow-md">
                         
                         <div className="relative aspect-video w-full"> 
                             <Image
@@ -45,7 +45,7 @@ const News = () => {
 
                     
                     </div>
-                    <div className="bg-slate-50 rounded-md flex flex-col items-center justify-center space-y-4 shadow-md">
+                    <div className="bg-slate-50 rounded-md flex flex-col  space-y-4 shadow-md">
                         
                         <div className="relative aspect-video w-full"> 
                             <Image
@@ -74,7 +74,8 @@ const News = () => {
 
                     
                     </div>
-                    <div className="bg-slate-50 rounded-md flex flex-col items-center justify-center space-y-4 shadow-md">
+                    
+                    <div className="bg-slate-50 rounded-md flex flex-col  space-y-4 shadow-md">
                         
                         <div className="relative aspect-video w-full"> 
                             <Image

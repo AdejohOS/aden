@@ -30,7 +30,7 @@ const Partner = () => {
 
                 
                     <div className='mt-20'>
-                        <div className='grid max-w-[700px] m-auto grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-10'>
+                        <div className='grid max-w-[800px] m-auto grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-10'>
                             
 
                             <TooltipProvider>
