@@ -6,8 +6,7 @@ import {
    SheetContent,
    SheetTrigger,
  } from "@/components/ui/sheet"
-import MobileLinks from "./mobile-links";
-import MobileRoutes from "./mobile-routes";
+
 import Logo from "./logo";
 import { Separator } from "./ui/separator";
 import NavItems from "./nav-items";
