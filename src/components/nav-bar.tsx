@@ -1,9 +1,5 @@
-import Image from 'next/image'
-import Link from 'next/link';
 import MobileMenu from './mobile-menu';
 import Logo from './logo';
-import Search from './search';
-import NavList from './nav-list';
 import NavItems from './nav-items';
 const Navbar = () => {
     return ( 
