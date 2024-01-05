@@ -23,7 +23,7 @@ const NavLinks = ({label, href, icon:Icon}: NavLinksProps) => {
 
     return (
         <li 
-          className={cn(`md:w-auto pl-6 md:p-0 w-full
+          className={cn(`md:w-auto pl-6 md:p-0 w-full font-semibold
               text-slate-500 hover:text-green-700 transition-all  hover:bg-green-100/20`
               ,isActive && `bg-green-200/20 text-green-700 md:bg-slate-50 md:border-b`)}
         >

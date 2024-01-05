@@ -10,6 +10,11 @@ const linkRoutes = [
 
   {
       icon: User2Icon,
+      label: 'Home',
+      href: "/"
+  },
+  {
+      icon: User2Icon,
       label: 'About Us',
       href: "/about"
   },

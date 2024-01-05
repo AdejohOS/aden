@@ -8,22 +8,26 @@ export const heros = [
     {
         src: one,
         alt: 'one',
-        title: "growth is our responsibility."
+        title: "growth is our responsibility.",
+        desc: 'Inaugural meeting of the network supervisory committee (NSC).'
     },
     {
         src: two,
         alt: 'one',
-        title: "Putting square pegs."
+        title: "Putting square pegs.",
+        desc: '2023 Aden Summit'
     },
     {
         src: three,
         alt: 'one',
-        title: "creating a new destination."
+        title: "creating a new destination.",
+        desc: 'Representative of the National Coordinator, ACE Impact Project giving a goodwill message at the meeting.'
     },
     {
         src: four,
         alt: 'one',
-        title: "Excellence is the Watch word"
+        title: "Excellence is the Watch word",
+        desc: 'Aden protective edge summit 2020'
     },
    
 ]

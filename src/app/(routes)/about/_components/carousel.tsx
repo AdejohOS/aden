@@ -51,11 +51,12 @@ const ObjCarousel = () => {
       opts={{
         align: "start",
         loop: true,
+        onpause:true,
         
       }}
       plugins={[
         Autoplay({
-          delay: 3000,
+          delay: 6000,
         }),
       ]}
       orientation="vertical"
@@ -69,7 +70,7 @@ const ObjCarousel = () => {
               <Card className="shadow-none border-none border-b-gray-50">
                 <CardContent className="flex flex-col items-center  p-2 bg-background">
                   <h2 className="h-4 w-4 text-slate-500 mb-1 font-bold"> {objective.index}</h2>
-                  <p className="text-slate-500">{objective.desc}</p>
+                  <p className="text-slate-500 text-left w-full h-full">{objective.desc}</p>
                 </CardContent>
                 <Separator/>
               </Card>

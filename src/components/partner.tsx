@@ -26,8 +26,7 @@ const Partner = () => {
                 <h1 className="text-xl md:text-3xl font-bold">
                     <span className="text-green-700 border-b p-2 border-green-500">Partners </span>
                 </h1>
-                <p className="mt-4 text-slate-500">Dive into a  world of great possibilities. </p>
-
+               
                 
                     <div className='mt-20'>
                         <div className='grid max-w-[800px] m-auto grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-10'>
