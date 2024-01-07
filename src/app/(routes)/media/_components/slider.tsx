@@ -41,7 +41,7 @@ const Slider = () => {
                   src={hero.src}
                   alt='slider'
     
-                  className='block object-cover h-full w-full object-top'
+                  className='block object-contain h-full w-full object-top'
                 />
               </div>
               

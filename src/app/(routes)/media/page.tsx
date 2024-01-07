@@ -53,7 +53,7 @@ const Media = () => {
                                 </div>
                             </div>
                         </DialogTrigger>
-                        <DialogContent className="min-h-screen max-w-full ">
+                        <DialogContent className="min-h-screen max-w-full">
                             
                             
                                     
