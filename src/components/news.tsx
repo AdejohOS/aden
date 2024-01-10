@@ -7,8 +7,8 @@ import { Badge } from "./ui/badge";
 
 const News = () => {
     return ( 
-        <section className="container  pt-24 pb-24">
-            <>
+        <section className="bg-slate-300/20  pt-20 pb-20">
+            <div className="container">
                 <h1 className="text-xl md:text-3xl font-bold">
                     <span className="text-green-700 border-b p-2 border-green-500">News </span>
                 </h1>
@@ -117,7 +117,7 @@ const News = () => {
                         Explore All <ArrowRight className="h-4 w-4 ml-2"/>
                     </Link>
                 </div>
-            </>
+            </div>
             
         </section>
      );

@@ -1,4 +1,5 @@
 import AboutUs from '@/components/about-us'
+import Excellence from '@/components/excellence'
 import Gallery from '@/components/gallery'
 import HeroSection from '@/components/hero'
 import News from '@/components/news'
@@ -14,7 +15,7 @@ export default function Home() {
       <HeroSection/>
       <AboutUs/>
       <Values/>
-      
+      <Excellence/>
     
       <News />
       <Partner />

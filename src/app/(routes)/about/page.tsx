@@ -67,6 +67,7 @@ const AboutUs = () => {
     return ( 
         <div className="w-full h-full">
             <AboutHero/>
+            
 
             <div className=" pb-20">
 

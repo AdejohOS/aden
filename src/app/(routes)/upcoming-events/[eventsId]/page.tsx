@@ -8,7 +8,7 @@ const EventItem = () => {
         <section>
             <div className="pt-24 pb-20">
                 <div className="container grid grid-cols-1 md:grid-cols-2 gap-5 items-center">
-                    <div className="relative aspect-square">
+                    <div className="relative aspect-square rounded-md">
                         <Image
                             src='/images/events/3.jpg'
                             alt="event"
@@ -18,7 +18,7 @@ const EventItem = () => {
                     </div>
 
                     <div className='space-y-4 text-slate-500'>
-                        <h1 className='text-2xl font-bold'>Inaugural meeting of NSC, 2021.</h1>
+                        <h1 className='text-xl font-bold'>Inaugural meeting of NSC, 2021.</h1>
                         <div className='flex items-center'>
                             <CalendarCheck className='h-5 w-5 mr-2 text-red-400' />
                             <span>
@@ -75,7 +75,61 @@ const EventItem = () => {
                                     Development
                                 </Badge>
                                 <p className="text-xs text-slate-500">Tue, 22 June 2023</p>
-                                <h2 className="text-slate-500 font-semibold">Inaugural meeting of NSC, 2021.</h2>
+                                <h2 className="text-slate-500 font-semibold text-sm">Inaugural meeting of NSC, 2021.</h2>
+                                
+                            </div>
+                        </div>
+                        <div className='bg-slate-50 rounded-md shadow overflow-hidden'>
+                            <div className="relative aspect-square">
+                                <Image
+                                    src='/images/events/2.jpg'
+                                    alt="event"
+                                    fill
+                                    className="object-cover"
+                                />
+                            </div>
+                            <div className='space-y-3 p-2'>
+                                <Badge variant='outline' className="text-xs text-slate-500">
+                                    Development
+                                </Badge>
+                                <p className="text-xs text-slate-500">Tue, 22 June 2023</p>
+                                <h2 className="text-slate-500 font-semibold text-sm">Inaugural meeting of NSC, 2021.</h2>
+                                
+                            </div>
+                        </div>
+                        <div className='bg-slate-50 rounded-md shadow overflow-hidden'>
+                            <div className="relative aspect-square">
+                                <Image
+                                    src='/images/events/2.jpg'
+                                    alt="event"
+                                    fill
+                                    className="object-cover"
+                                />
+                            </div>
+                            <div className='space-y-3 p-2'>
+                                <Badge variant='outline' className="text-xs text-slate-500">
+                                    Development
+                                </Badge>
+                                <p className="text-xs text-slate-500">Tue, 22 June 2023</p>
+                                <h2 className="text-slate-500 font-semibold text-sm">Inaugural meeting of NSC, 2021.</h2>
+                                
+                            </div>
+                        </div>
+                        <div className='bg-slate-50 rounded-md shadow overflow-hidden'>
+                            <div className="relative aspect-square">
+                                <Image
+                                    src='/images/events/2.jpg'
+                                    alt="event"
+                                    fill
+                                    className="object-cover"
+                                />
+                            </div>
+                            <div className='space-y-3 p-2'>
+                                <Badge variant='outline' className="text-xs text-slate-500">
+                                    Development
+                                </Badge>
+                                <p className="text-xs text-slate-500">Tue, 22 June 2023</p>
+                                <h2 className="text-slate-500 font-semibold text-sm">Inaugural meeting of NSC, 2021.</h2>
                                 
                             </div>
                         </div>
