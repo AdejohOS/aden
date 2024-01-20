@@ -10,6 +10,7 @@ import {  CheckCircle, KanbanSquare, Magnet, Settings } from "lucide-react"
 import Image from 'next/image'
 import ObjCarousel from "./_components/carousel"
 import AboutHero from "./_components/about-hero"
+import { Metadata } from "next"
 
 const mandates = [
     {
@@ -60,12 +61,11 @@ const mandates = [
 ]
   
 
-
 const AboutUs = () => {
 
 
     return ( 
-        <div className="w-full h-full">
+        <div className="w-full h-full bg-dotted-pattern bg-contain">
             <AboutHero/>
             
 

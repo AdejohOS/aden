@@ -27,7 +27,7 @@ const Footer = () => {
                     
                     <p className="truncate text-slate-500 text-sm md:text-base flex items-center hover:text-sky-300">
                         <PhoneCall className="h-4 w-4 mr-2"/>
-                        <a  href="tel:123-456-7890">070-634-94394</a>
+                        <a  href="tel:070-1234-5678">070-1234-5678</a>
                     </p>
 
                     <p className="truncate text-sm md:text-base text-slate-500 flex items-center hover:text-sky-300">
@@ -38,15 +38,15 @@ const Footer = () => {
                     
                     <p className="flex items-center gap-2 text-slate-500">
 
-                        <Link href='https://www.twitter.com/b_skilz' target="_blank" className="hover:text-sky-300">
+                        <Link href='/'  className="hover:text-sky-300">
                             <Twitter className="h-4 w-4"/>
                         </Link>
 
-                        <Link href='https://www.twitter.com/b_skilz' target="_blank" className="hover:text-sky-300">
+                        <Link href='/' className="hover:text-sky-300">
                             <Facebook className="h-4 w-4"/>
                         </Link>
                         
-                        <Link href='https://www.twitter.com/b_skilz' target="_blank" className="hover:text-sky-300">
+                        <Link href='/' className="hover:text-sky-300">
                             <Instagram className="h-4 w-4"/>
                         </Link>
                         
@@ -117,7 +117,7 @@ const Footer = () => {
            <Separator className="mt-4"/>
 
            <p className="text-center mt-4 text-slate-500 text-sm md:text-base ">
-                <a href="https://adejohos.dev" target="_blank" className="hover:text-sky-300">Aden Media</a> &#169; 2023  
+                <a href=""  className="hover:text-sky-300">Aden Media</a> &#169; 2023  
            </p>
                 
         </footer>

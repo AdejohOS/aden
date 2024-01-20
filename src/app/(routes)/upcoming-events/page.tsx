@@ -1,12 +1,14 @@
 import { Input } from "@/components/ui/input";
 import UpcomingHero from "./__components/upcoming-hero";
-import Select from "./__components/select";
+import Select from "./__components/category-filter";
 import { CalendarCheck, SearchIcon } from "lucide-react";
 import Image from 'next/image'
 import { Separator } from "@/components/ui/separator";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
+import CategoryFilter from "./__components/category-filter";
+import Search from "./__components/search";
 
 const UpcomingEvents = () => {
     return ( 
@@ -14,21 +16,12 @@ const UpcomingEvents = () => {
             <UpcomingHero/>
             <section className="container pb-24">
                 <div>
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+                    <div className="flex flex-col gap-5 md:flex-row">
 
-                        <div className="flex-grow   relative">
-                            <Input
-                                placeholder="Search for an event"
-                                className="w-full pl-8"
-                            />
-                            <SearchIcon className="w-4 h-4 text-slate-500 absolute top-[50%] translate-y-[-50%] left-3"/>
-                        </div>
-                        
+                        <Search />
 
-                        <div className="w-full">
-                            <Select/>
-                        </div>
-                        
+                        <CategoryFilter/>
+                            
                     </div>
 
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 mt-10">

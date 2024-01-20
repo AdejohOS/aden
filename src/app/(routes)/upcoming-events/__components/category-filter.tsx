@@ -43,7 +43,7 @@ const frameworks = [
     },
   ]
 
-const Select = () => {
+const CategoryFilter = () => {
     const [open, setOpen] = React.useState(false)
     const [value, setValue] = React.useState("")
 
@@ -54,7 +54,7 @@ const Select = () => {
               variant="outline"
               role="combobox"
               aria-expanded={open}
-              className="w-full justify-between text-slate-500"
+              className="flex-1 justify-between text-slate-500"
             >
               {value
                 ? frameworks.find((framework) => framework.value === value)?.label
@@ -92,4 +92,4 @@ const Select = () => {
       );
 }
  
-export default Select;
+export default CategoryFilter;
