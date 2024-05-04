@@ -1,61 +1,58 @@
-'use client'
+"use client";
 
-import { Layout, PhoneCallIcon, Video, User2Icon, Calendar } from 'lucide-react';
-import Link from 'next/link'
-import React from 'react'
-import NavLinks from './nav-links';
+import {
+  Layout,
+  PhoneCallIcon,
+  Video,
+  User2Icon,
+  Calendar,
+} from "lucide-react";
+import Link from "next/link";
+import React from "react";
+import NavLinks from "./nav-links";
 
 const linkRoutes = [
- 
-
   {
-      icon: User2Icon,
-      label: 'Home',
-      href: "/"
+    icon: User2Icon,
+    label: "Home",
+    href: "/",
   },
   {
-      icon: User2Icon,
-      label: 'About Us',
-      href: "/about"
+    icon: User2Icon,
+    label: "About Us",
+    href: "/about",
   },
   {
-      icon: Video,
-      label: 'Media',
-      href: "/media"
+    icon: Video,
+    label: "Media",
+    href: "/media",
   },
   {
-      icon: Calendar,
-      label: 'Events',
-      href: "/upcoming-events"
+    icon: Calendar,
+    label: "Events",
+    href: "/upcoming-events",
   },
   {
-      icon: PhoneCallIcon,
-      label: 'Contact Us',
-      href: "/contact-us"
+    icon: PhoneCallIcon,
+    label: "Contact Us",
+    href: "/contact-us",
   },
 ];
 
-const NavItems = () => {
+const NavItems = ({ ...restProps }) => {
   return (
-    <ul className='flex flex-col md:flex-row items-start md:flex-between  w-full md:gap-4'>
-
+    <ul className="flex flex-col md:flex-row items-start md:flex-between mt-12  md:mt-0 w-full md:gap-4">
       {linkRoutes.map((link) => (
-        
-          <NavLinks
-            key={link.label}
-            label={link.label}
-            href={link.href}
-            icon={link.icon}
-          />
-          
-        
+        <NavLinks
+          key={link.label}
+          label={link.label}
+          href={link.href}
+          icon={link.icon}
+          {...restProps}
+        />
       ))}
-                    
     </ul>
+  );
+};
 
-
-
-  )
-}
-
-export default NavItems
+export default NavItems;
